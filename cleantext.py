@@ -1,3 +1,4 @@
+
 class CleanText(BaseEstimator, TransformerMixin):
     @staticmethod
     def _remove_mentions(input_text):
